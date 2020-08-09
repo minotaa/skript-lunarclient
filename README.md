@@ -20,3 +20,7 @@ Send Player Notification (1.7 Client Only, it doesn't break the server, but it j
 ```vbs
 send [lunar] notification to %player% with message %string% delayed by %integer% [seconds]
 ```
+Update Server Name For User (Discord Rich Presence)
+```vbs
+update [lunar] server name of %player% to %string%
+```
