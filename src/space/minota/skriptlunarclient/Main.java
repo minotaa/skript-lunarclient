@@ -18,6 +18,7 @@ public class Main extends JavaPlugin {
             Skript.registerCondition(CondLunarAuthenticated.class, "%player% is ([auth[enticated] with]|on) [lunar [client]]");
             Skript.registerEffect(EffSendCooldown.class, "send [lunar] cooldown to %player% called %string% with %itemstack% for %integer% [(milliseconds|ms)]");
             Skript.registerEffect(EffSendNotification.class, "send [lunar] notification to %player% with message %string% delayed by %integer% [seconds]");
+            Skript.registerEffect(EffUpdateServerName.class, "update [lunar] server name of %player% to %string%");
 
         } else {
             Bukkit.getLogger().warning("skript-lunarclient requires Skript, otherwise, the plugin will not add the effects!");
