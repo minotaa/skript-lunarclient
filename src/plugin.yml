@@ -1,5 +1,6 @@
-name: skript-lunarclient
-version: 1.0.0
+name: skript-client
+version: 1.1.0
 author: Minota
-main: space.minota.skriptlunarclient.Main
-depend: [Skript, LunarClientAPI]
+main: space.minota.skriptclient.Main
+depend: [Skript]
+soft-depend: [LabyModAPI, LunarClientAPI]

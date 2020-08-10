@@ -1,4 +1,4 @@
-package space.minota.skriptlunarclient;
+package space.minota.skriptclient;
 
 import ch.njol.skript.doc.*;
 
