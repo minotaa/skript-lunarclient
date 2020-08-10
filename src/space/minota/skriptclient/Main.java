@@ -26,7 +26,9 @@ public class Main extends JavaPlugin {
             if (Bukkit.getPluginManager().getPlugin("LabyModAPI") == null) {
                 Bukkit.getLogger().warning("skript-client depends on the LabyMod Server API for its LabyMod effects, you don't have this however and they will not be loaded.");
             } else {
-
+                Skript.registerEffect(EffLabySendGamemode.class, "send [laby[mod]] server gamemode of %player% to %string% with visibility %boolean%");
+                Skript.registerEffect(EffLabyRecommendAddon.class, "recommend [laby[mod]] addon to %player% with uuid %string% with required %boolean%");
+                Skript.registerEffect(EffLabyServerSwitch.class, "send [laby[mod]] server switch to %player% with title %string% with address %string% with preview %boolean%");
             }
         } else {
             Bukkit.getLogger().warning("skript-client requires Skript, otherwise, the plugin will not add the effects!");
